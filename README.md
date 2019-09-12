@@ -1,5 +1,11 @@
 # Git & GitHub Assignment
 
+To do:
+
+- [ ] Partner B needs to clone repo
+- [ ] What to do if it all goes wrong
+- [ ] Test this with someone
+
 This lab is divided into 2 parts, the first part focuses on Git and the second is real a life example using GitHub. 
 
 ## Practice Git branching
