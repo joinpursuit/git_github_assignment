@@ -1,8 +1,8 @@
 # Git & GitHub Assignment
 
-This lab is divided into 2 parts, the first part focuses on Git and the second is real life example using GitHub. 
+This lab is divided into 2 parts, the first part focuses on Git and the second is real a life example using GitHub. 
 
-## Practice git branching
+## Practice Git branching
 
 Go to [Learn Git Branching](https://learngitbranching.js.org/) and read the introduction.
 
@@ -22,7 +22,7 @@ Solve the exercices following the below order:
   - 6: Git Pushin'
   - 7: Diverged History
 
-## GitHub practicce
+## GitHub practice
 
 In order to complete this part of the lab you will need to work with a partner.
 
@@ -54,13 +54,17 @@ To check everything is properly set-up, type `git remote -v`,you should have two
 
 10. *Partner A && Partner B*: Both of you create their own branch. Add a new folder with a file. Add, commit and push your work to the remote repository.
 
-11. *Partner A && Partner B*: Pull the changes to your local machine. Each of you should have access to your partner's new folder and file.
+---
 
 Branch naming conventions:
 - Choose short and descriptive names
 - Use lowercase in branch names
 - Use hyphens to separate words
 
+---
+
+11. *Partner A && Partner B*: Pull the changes to your local machine. Each of you should have access to your partner's new folder and file.
+
 ## Bonus
 
-Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work the other exercices.
+Go back to [Learn Git Branching](https://learngitbranching.js.org/) and work on the other exercices.
