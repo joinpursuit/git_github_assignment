@@ -1,11 +1,5 @@
 # Git & GitHub Assignment
 
-To do:
-
-- [ ] Partner B needs to clone repo
-- [ ] What to do if it all goes wrong
-- [ ] Test this with someone
-
 This lab is divided into 2 parts, the first part focuses on Git and the second is real a life example using GitHub. 
 
 ## Practice Git branching
@@ -36,7 +30,7 @@ In order to complete this part of the lab you will need to work with a partner.
 
 2. *Partner A*: Clone your repository, giving you a local copy of the code on your machine.
 
-3. *Partner B*: [Fork](https://help.github.com/en/articles/fork-a-repo) your partner's repository and you should fork.
+3. *Partner B*: [Fork](https://help.github.com/en/articles/fork-a-repo) your partner's repository and you should clone it.
 
 4. *Partner A*: Add your partner's GitHub fork as "remote". You can name the remote whatever you want (except `origin` which would already be taken by your own GitHub repo).
 
