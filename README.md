@@ -13,6 +13,10 @@ Solve the exercices following the below order:
   - 2: Branching in Git
   - 3: Merging in Git
 
+```
+solved on website
+```
+
 - Remote > Push & Pull -- Git Remotes!
   - 1: Clone Intro
   - 2: Remote branches
