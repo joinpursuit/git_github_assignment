@@ -26,6 +26,10 @@ solved on website
   - 6: Git Pushin'
   - 7: Diverged History
 
+  ```
+  solved on website
+  ```
+
 ## GitHub practice
 
 In order to complete this part of the lab you will need to work with a partner.
