@@ -30,7 +30,7 @@ In order to complete this part of the lab you will need to work with a partner. 
 Have one person be `Partner A` and another be `Partner B`.
 
 1. **Partner A**: 
-  * Create an empty [GitHub](https://help.github.com/en/articles/creating-a-new-repository) repository called `github-practice`. Do not check the README box.
+  * Create an empty [GitHub](https://help.github.com/en/articles/creating-a-new-repository) repository called `github-practice`. **Check the README box**.
 
 2. **Partner A**: 
   * Clone your newly created repository, giving you a local copy of the code on your machine.
