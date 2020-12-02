@@ -8,13 +8,6 @@ Go to [Learn Git Branching](https://learngitbranching.js.org/) and read the intr
 
 Solve the exercises in the following order. If you get stuck on any level, you can type `reset` to start over.
 
-- Main Tab > Introduction Sequence:
-  - 1: Introduction to Git commits
-  - 2: Branching in Git
-  - 3: Merging in Git
-
-Once you finish with part 3, click the (?) Icon down in the bottom right, then click **Levels** to switch levels.
-
 - Remote Tab > Push & Pull -- Git Remotes!
   - 1: Clone Intro
   - 2: Remote branches
@@ -65,23 +58,21 @@ Have one person be `Partner A` and another be `Partner B`.
 9. **Partner A**: 
   * Pull your partner's changes to your local machine.
 
-10. **Partner A && Partner B**: 
-  * Both of you follow each of these steps:
-  * Create your own branch and switch to it.
+10. **Partner B**: 
   * Add a new folder called `haiku` with a file `haiku.txt`. 
   * Write a [haiku](https://en.wikipedia.org/wiki/Haiku) in the file, about any topic you like.
-  * Add, commit and push your new branch to the remote repository.
+  * Add, commit and push your changes to the your repository.
 
-11. **Partner A && Partner B**: 
-  * Make a pull request, merging your branch into the `main` branch.
+11. **Partner B**: 
+  * Make a pull request!
 
-12. **Partner A && Partner B**: 
-  * Merge each other's pull requests.
-  * Switch back to the `main` branch and pull down the changes.
+12. **Partner A**: 
+  * Merge Partner B's pull request.
+  * Pull down the changes to your machine.
 
 13. **Partner A**: 
-  * Do a `git revert` on the main branch, reversing **Partner B's** last commit
-  * Push your commit to the remote repo
+  * Do a `git revert` reversing **Partner B's** last commit
+  * Push your commit to the remote (not origin) repo
 
 14. **Partner B**: 
   * Pull the changes to your local machine. Both of you should now be looking at the same code.
