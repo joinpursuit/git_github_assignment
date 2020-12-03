@@ -30,7 +30,7 @@ Have one person be `Partner A` and another be `Partner B`.
 
 3. **Partner B**: 
   * [Fork](https://help.github.com/en/articles/fork-a-repo) your partner's repository
-  * Then clone it.
+  * Then clone the forked copy to your computer.
 
 4. **Partner A**: 
   * Add your partner's GitHub fork as a remote repo. You should name it **Partner B's first name**. 
@@ -39,41 +39,50 @@ Have one person be `Partner A` and another be `Partner B`.
     - `partnerB'sFirstName` pointing to your partner's repository
 
 5. **Partner B**:
-  * Add Partner A as a collaborator on your fork. This is done on github.
+  * Add Partner A as a collaborator on your fork. This is done on github. Partner A should check their email if they don't see the notification.
 
-5. **Partner A**: 
+6. **Partner A**: 
   * Make a new directory `practice` and create a file `index.js` inside of it.
   * Open the file and write "GitHub keeps meticulous track of all the changes made to a project".
 
-6. **Partner A**: 
- * Push your changes to the **remote** repository, not origin
-
-7. **Partner B**: 
-  * Pull your partner's changes to your local machine.
+7. **Partner A**: 
+ * Commit your changes
+ * Push your changes to __Partner B's__ repository, not origin.
 
 8. **Partner B**: 
-  * Go to the index file and add the following sentence: "In order to do so, you save these changes by commiting them. In order to commit them, you have to first tell Git to stage them."
-  * Commit and push the changes 
-
-9. **Partner A**: 
   * Pull your partner's changes to your local machine.
 
-10. **Partner B**: 
+9. **Partner B**: 
+  * Go to the index file and add the following sentence: "In order to do so, you save these changes by commiting them. In order to commit them, you have to first tell Git to stage them."
+  * Commit and push the changes.
+
+10. **Partner A**: 
+  * Pull your partner's changes to your local machine.
+
+11. **Partner B**: 
   * Add a new folder called `haiku` with a file `haiku.txt`. 
   * Write a [haiku](https://en.wikipedia.org/wiki/Haiku) in the file, about any topic you like.
   * Add, commit and push your changes to the your repository.
 
-11. **Partner B**: 
+12. **Partner B**: 
   * Make a pull request!
 
-12. **Partner A**: 
+13. **Partner A**: 
   * Merge Partner B's pull request.
   * Pull down the changes to your machine.
 
-13. **Partner A**: 
+14. **Partner A**: 
   * Do a `git revert` reversing **Partner B's** last commit
   * Push your commit to the remote (not origin) repo
 
-14. **Partner B**: 
+15. **Partner B**: 
   * Pull the changes to your local machine. Both of you should now be looking at the same code.
 
+<!-- 
+
+## Bonus practice
+
+For these steps, you don't need to be the same Partner A and B as before.
+
+1.
+ -->
