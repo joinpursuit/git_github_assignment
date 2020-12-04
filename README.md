@@ -25,7 +25,7 @@ This assumes you did the previous steps already.
 
 1. On `github`, create a new repository. Give it the name `git-practice-local`. **DO NOT CHECK ANY OF THE BOXES**
 1. Make sure the **SSH** button at the top is clicked, not HTTPS.
-1. Follow the second set of directions that say "...or push an existing repository from the command line". Run each of those commands in the terminal.
+1. Follow the second set of directions that say "...or push an existing repository from the command line". Run each of those commands in the terminal, in the directory that you created during the previous exercise.
 
 You now have a local repo that is synced to github! You can push and pull without fear.
 
