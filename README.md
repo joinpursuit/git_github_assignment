@@ -1,88 +1,99 @@
 # Git & GitHub Assignment
 
-This lab is divided into 2 parts, the first part focuses on Git and the second is a practice exercise using GitHub and a partner. 
+These assignments will help you get familiar with various workflows in git.
 
-## Practice Git branching
+## Setting up
 
-Go to [Learn Git Branching](https://learngitbranching.js.org/) and read the introduction.
+Step 0: Figure out what folder you will be doing these exercises in. If you don't know how to choose, create a folder in your `Home` directory called `sandbox`.
 
-Solve the exercises in the following order. If you get stuck on any level, you can type `reset` to start over.
+## Creating a git repo locally
 
-- Remote Tab > Push & Pull -- Git Remotes!
-  - 1: Clone Intro
-  - 2: Remote branches
-  - 3: Git Fetchin'
-  - 4: Git Pullin'
-  - 5: Faking Teamwork
-  - 6: Git Pushin'
+`cd` into `sandbox` and create a folder in there called `git-practice-local`.
 
-## GitHub practice
+1. `cd` into the directory you will be working in. 
+1. Initialize a git repository in the current directory using `git init`. This creates a hidden folder called `.git` which tells your computer that this directory is a git repository. 
+1. Create a file called `README.md`.
+1. Open the readme file with VSCode using `code .`
+1. Write a haiku in the readme file. A haiku is a poem where the first line has 5 syllables, second has 7 syllables, and third has 5 syllables.
+1. Add and commit the readme file.
+
+You now have a git repo on your computer!
+
+## Pushing a local repo to github
+
+This assumes you did the previous steps already.
+
+1. On `github`, create a new repository. Give it the name `git-practice-local`. **DO NOT CHECK ANY OF THE BOXES**
+1. Make sure the **SSH** button at the top is clicked, not HTTPS.
+1. Follow the second set of directions that say "...or push an existing repository from the command line". Run each of those commands in the terminal.
+
+You now have a local repo that is synced to github! You can push and pull without fear.
+
+## Creating a repo on github first
+
+1. On `github`, create a new repository. Give it the name `git-practice-remote`. **CHECK THE ADD A README FILE BOX**
+1. `cd` to the sandbox directory
+1. Clone the repo to your computer
+
+You now have a repo that is synced to github!
+
+Note the difference between this method and the one above is just about who creates the repository first. The end result is the same (though the contents of the files might be different, you can still push and pull).
+
+## Forking & Pull Requests Solo Practice
+
+These steps will walk you through forking and making pull requests. Practice this alone!
+
+1. Fork this lesson by clicking the fork button on the top right of this page
+1. Clone the **forked copy** to your computer
+1. `cd` to the cloned directory
+1. Create a new file called `haiku.txt`
+1. `Add` and `commit` the empty text file
+1. Write a haiku in the text file
+1. `Add` and `commit` the changes
+1. `Push` your changes up to your forked copy
+1. On `github`, go to your forked copy and make a pull request.
+1. In the title of your pull request, put your name 
+1. In the description of your pull request, write a nice message to your instructors
+1. Create the pull request
+1. Pray that your pull request gets accepted by the maintainers of the project
+
+## GitHub partner practice
 
 In order to complete this part of the lab you will need to work with a partner. Only 2 people in a group!
 
 Have one person be `Partner A` and another be `Partner B`.
 
 1. **Partner A**: 
-  * Create an empty [GitHub](https://help.github.com/en/articles/creating-a-new-repository) repository called `github-practice`. **Check the README box**.
-
-2. **Partner A**: 
+  * Create an empty `github` repository called `github-practice`. **Check the README box**.
   * Clone your newly created repository, giving you a local copy of the code on your machine.
+  * Send Partner B the link to your repo on github
 
-3. **Partner B**: 
-  * [Fork](https://help.github.com/en/articles/fork-a-repo) your partner's repository
-  * Then clone the forked copy to your computer.
+2. **Partner B**: 
+  * Fork your partner's repository
+  * Clone the forked copy to your computer.
+  * Create a file called `haiku.txt`
+  * Write a haiku inside the file
+  * Add and commit the changes
+  * Push the changes up to github
+  * Create a pull request on your forked copy
 
-4. **Partner A**: 
-  * Add your partner's GitHub fork as a remote repo. You should name it **Partner B's first name**. 
-  * To check everything is properly set-up, type `git remote -v`, you should have two remotes (though it might show as four):
-    - `origin` pointing to your repository
-    - `partnerB'sFirstName` pointing to your partner's repository
+3. **Partner A**: 
+  * Accept the pull request 
+  * Pull the latest changes down to your computer
+  * Create another file called `haiku2.txt` and write a haiku inside it
+  * Add and commit the changes
+  * Push your code back up to github
 
-5. **Partner B**:
-  * Add Partner A as a collaborator on your fork. This is done on github. Partner A should check their email if they don't see the notification.
+4. **Partner B**: 
+  * Add Partner A's repository _as a remote_ on your local machine. Use the clone (SSH) link, not the website address
+  * Pull your partner's changes to your local machine (`git pull <remotename> <branchname>`)
+  * Revert the last commit Partner A made, undoing their haiku
+  * Add and commit your changes
+  * Push your changes up to github
+  * Make a pull request
 
-6. **Partner A**: 
-  * Make a new directory `practice` and create a file `index.js` inside of it.
-  * Open the file and write "GitHub keeps meticulous track of all the changes made to a project".
-
-7. **Partner A**: 
- * Commit your changes
- * Push your changes to __Partner B's__ repository, not origin.
-
-8. **Partner B**: 
-  * Pull your partner's changes to your local machine.
-
-9. **Partner B**: 
-  * Go to the index file and add the following sentence: "In order to do so, you save these changes by commiting them. In order to commit them, you have to first tell Git to stage them."
-  * Commit and push the changes.
-
-10. **Partner A**: 
-  * Pull your partner's changes to your local machine.
-
-11. **Partner B**: 
-  * Add a new folder called `haiku` with a file `haiku.txt`. 
-  * Write a [haiku](https://en.wikipedia.org/wiki/Haiku) in the file, about any topic you like.
-  * Add, commit and push your changes to the your repository.
-
-12. **Partner B**: 
-  * Make a pull request!
-
-13. **Partner A**: 
-  * Merge Partner B's pull request.
-  * Pull down the changes to your machine.
-
-14. **Partner A**: 
-  * Do a `git revert` reversing **Partner B's** last commit
-  * Push your commit to the remote (not origin) repo
-
-15. **Partner B**: 
+5. **Partner A**: 
+  * Accept the pull request
   * Pull the changes to your local machine. Both of you should now be looking at the same code.
 
-<!-- 
 
-## Bonus practice
-
-For these steps, you don't need to be the same Partner A and B as before.
-
-1.
- -->
